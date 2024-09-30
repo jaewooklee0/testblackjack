@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://example.com/blackjack-table.jpg'); /* Replace with an actual image URL */
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    width: 400px;
+    margin: 50px auto;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.card {
+    width: 50px;
+    height: 75px;
+    background-color: white;
+    border: 1px solid #333;
+    margin: 0 5px;
+    position: relative;
+}
+
+#game-area {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+#dealer-area, #player-area {
+    width: 45%;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
